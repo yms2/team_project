@@ -1,59 +1,9 @@
 #wrap{
     width: 100%;
 }
-
-#header{
-    height: 214px;
-}
-#top{
-    width: 1200px;
-    margin: 0 auto;
-}
-#header .sns{
-    height: 40px;
-}
-#header .logo{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 174px;
-}
-#aside{
-    position: fixed;
-    
-    width: 200px;
-    height: 100%;
-    background-color: red;
-}
-#top .sns{
-    display: flex;
-    justify-content: space-between;
-}
-#top .sns ul{
-    display: flex;
-    height: 40px;
-    align-items: center;
-}
-#top .sns li{
-    margin-right: 10px;
-    color: #888888;
-}
-#mainImg .main{
-    width: 6000px;
+#mainImg .main{ 
     display: flex;
 }
-#mainImg .img1{
+#mainImg img{
     width: 100%;
-    height: 700px;
-    background-color: blue;
-}
-#mainImg .img2{
-    width: 100%;
-    height: 700px;
-    background-color: gray;
-}
-#mainImg .img3{
-    width: 100%;
-    height: 700px;
-    background-color: yellow;
 }
