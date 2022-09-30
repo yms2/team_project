@@ -5,18 +5,47 @@
     height: 800px;
     background-color: blue;
 }
-#section .content{
+.content{
+    position: relative;
+    display: flex;
     width: 1200px;
     height: 100%;
     background-color: green;
 }
-#section .location{
+.location_top{
     display: flex;
     align-items: center;
     width: 100%;
     height: 40px;
-    background-color: red;
+    padding: 10px;
 }
-#section .location p{
+.location p{
     font-size: 12px;
+}
+.location_tit{
+    display: flex;
+}
+.location_tit a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+    height: 15px;
+    padding: 3px 2px 3px 9px;
+    font-size: 11px;
+    background-color: white;
+    border: 1px solid gray;
+}
+.location_menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 150px;
+    position: absolute; top: 43px;left: 58px;
+    background-color: white;
+    padding:3px 2px 8px 9px;
+    display: none;
+}
+.location_menu li{
+    margin-top: 5px;
 }
