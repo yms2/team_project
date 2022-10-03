@@ -90,6 +90,7 @@
     align-items: center;
     background-color: white;
     cursor: pointer;
+    border: 1px solid black;
 }
 .choose_button{
     position: absolute;top: 84px; right: -29px;
