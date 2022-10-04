@@ -100,7 +100,8 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 1600px;
+    height: 4200px;
+    border-bottom: 1px solid gray;
 }
 .item_galley_type ul{
     display: flex;
